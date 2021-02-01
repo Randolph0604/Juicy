@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Category"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <ImageView
+        android:layout_marginTop="3dp"
+        android:id="@+id/categorySaludable"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_weight="1"
+        android:background="@drawable/tiposalubable"
+        android:layout_marginBottom="5dp"
+        />
+    <ImageView
+        android:id="@+id/categoryRapida"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_weight="2"
+        android:background="@drawable/tiporapida"
+        android:layout_marginBottom="5dp"
+        />
+    <ImageView
+        android:id="@+id/categoryTipica"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_weight="3"
+        android:background="@drawable/tipotipica"
+        android:layout_marginBottom="5dp"
+        />
+    <ImageView
+        android:id="@+id/categoryBebida"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_weight="4"
+        android:background="@drawable/tipobebidas"
+        android:layout_marginBottom="5dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/madera"
+    tools:context=".MainActivity">
+
+    <ViewFlipper
+        android:id="@+id/v_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"/>
+
+    <EditText
+        android:id="@+id/campo_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="192dp"
+        android:gravity="center"
+        android:background="@drawable/capsule"
+        android:drawableLeft="@drawable/icnusu"
+        android:ems="10"
+        android:hint="Nombre de usuario"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/campo_clave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="132dp"
+        android:gravity="center"
+        android:background="@drawable/capsule"
+        android:drawableLeft="@drawable/icllave"
+        android:ems="10"
+        android:hint="Constraseña"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/capsula2"
+        android:drawableRight="@drawable/icflecha"
+        android:textColor="#FFF"
+        android:text="Iniciar sesión" />
+
+    <Button
+        android:id="@+id/btn_invitado"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/capsule"
+        android:text="Iniciar como invitado"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_registrar"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:drawableLeft="@drawable/icnmas"
+        android:background="@drawable/capsule"
+        android:text="Registrarse"
+        android:textColor="#000000" />
+
+
+
+
+</RelativeLayout>
